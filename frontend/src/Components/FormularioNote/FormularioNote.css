@@ -1,0 +1,100 @@
+.containerThree {
+    width: 30%;
+    margin-left: 35%;
+}
+
+.titleCreate {
+    text-align: center;
+}
+
+.grupoForm {
+    margin-bottom: 0.8em;
+}
+
+.grupoForm > label {
+    display: block;
+    margin-bottom: 0.3em;
+    font-size: 1.1em;
+}
+
+.grupoForm > input{
+    width: 100%;
+    height: 1.8em;
+}
+
+.grupoForm > textarea {
+    width: 100%;
+    height: 6.0em;
+}
+
+.btnFormNote {
+    font-size: 1.0em;
+    margin-top: 1.5em;
+    width: 50%;
+    padding: 0.4em 1.0em;
+    border-radius: 0.8em;
+    color: white;
+}
+
+.divBoton {
+    display: flex;
+}
+
+.btnSave {
+    background-color: green;
+}
+
+.btnCancel {
+    background-color: red;
+}
+
+.divCategories {
+    border: 1px solid black;
+    padding: 0.5em;
+    margin-bottom: 0.5em;
+    height: 150px;
+    overflow-y: scroll;
+}
+
+.imgDelete {
+    width: 20px;
+}
+
+.btnDelete {
+    padding: 0;
+    border: 0px;
+    background-color: #ccc;
+}
+
+.divNewCategorie {
+    display: flex;
+    height: 25px;
+    /* border: 1px solid black; */
+    padding: 0.5em 1.0em;
+    width: max-content;
+    background-color: #ccc;
+    border-radius: 0.5em;
+    margin-bottom: 0.5em;
+}
+
+.nameCategorie {
+    font-size: 1.1em;
+    margin-right: 0.5em;
+}
+
+.grupoFormCategorie {
+    display: flex;
+}
+
+.grupoFormCategorie > .ingresa {
+flex:1;
+height: 1.8em;
+}
+
+.btnAddCategorie {
+    padding: 0.1em 1.2em;
+    margin-left: 0.5em;
+    font-size: 1.0em;
+    background-color: skyblue;
+    border-radius: 0.5em;
+}

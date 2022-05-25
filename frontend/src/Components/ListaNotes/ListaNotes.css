@@ -1,0 +1,93 @@
+
+.containerTwo {
+    width: 70%;
+    margin-left: 15%;
+}
+
+.cuadrito {
+    width: 28%;
+    background-color: aliceblue;
+    border: 1px solid black;
+    padding: 1.0em;
+    border-radius: 0.8em;
+    margin: 0.5em;
+    display: inline-block;
+    
+}
+
+.titleNote {
+    font-size: 1.3em;
+    font-weight: bold;
+}
+
+.divNotes {
+    width: auto;
+}
+
+.btnNote > img{
+    width: 25px;
+}
+
+.btnNote {
+    margin: 0em 0.5em;
+    border-radius: 0.6em;
+}
+
+.btnRemove {
+    background-color: red;
+}
+
+.btnEdit {
+    background-color: orange;
+}
+
+.btnArchived {
+    background-color: blueviolet;
+}
+
+.divBotones {
+    text-align: right;
+}
+
+.titleMyNotes {
+    font-size: 1.6em;
+    flex: 1;
+}
+
+.divFragment {
+    display: flex;
+    line-height: 0em;
+}
+
+.btnList {
+    height: 3.5em;
+    margin-right: 2.5em;
+    font-weight: bold;
+    background-color: rgb(206, 192, 168);
+    padding: 0.5em;
+    border-radius: 0.8em;
+    display: flex;
+}
+
+.btnList > img {
+    width: 2.0em;
+    margin-right: 0.5em;
+}
+
+.btnList > span {
+    line-height: 2.1em;
+}
+
+.divSelect {
+    margin: 0.8em 0;
+}
+
+.selectCategorie {
+    font-size: 1.1em;
+    width: 200px;
+}
+
+.dateNote {
+    margin-top: 0.5em;
+    margin-bottom: 2.0em;
+}

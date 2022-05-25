@@ -1,0 +1,23 @@
+.btnLogout {
+    font-size: 1.1em;
+    padding: 0.2em 0.8em;
+    background-color: rgb(252, 71, 71);
+    border-radius: 0.5em;
+}
+
+.portada {
+    background-color: #ccc;
+}
+
+.divBtnLogout {
+    text-align: right;
+    padding: 1.0em;
+    padding-bottom: 0em;
+    margin-bottom: 0;
+}
+
+.titleWelcome {
+    padding: 0.5em 0.5em;
+    padding-top: 0em;
+    border-bottom: 2px solid black;
+}
