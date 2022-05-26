@@ -4,7 +4,9 @@ version: '3.7'
 
 # Define services
 
-# Database Service (Mysql)
+services:
+  # App backend service
+  # Database Service (Mysql)
   db:
     image: mysql:5.7
     ports:
@@ -20,8 +22,6 @@ version: '3.7'
     networks:
       - backend  
   
-services:
-  # App backend service
   app-server:
     # Configuration for building the docker image for the backend service
     build:
