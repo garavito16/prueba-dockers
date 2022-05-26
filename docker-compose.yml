@@ -3,6 +3,23 @@
 version: '3.7'
 
 # Define services
+
+# Database Service (Mysql)
+  db:
+    image: mysql:5.7
+    ports:
+      - "3306:3306"
+    restart: always
+    environment:
+      MYSQL_DATABASE: db_notes
+      MYSQL_USER: root
+      MYSQL_PASSWORD: root
+      MYSQL_ROOT_PASSWORD: root
+    volumes:
+      - db-data:/var/lib/mysql
+    networks:
+      - backend  
+  
 services:
   # App backend service
   app-server:
@@ -38,21 +55,7 @@ services:
     networks:
       - frontend  
 
-  # Database Service (Mysql)
-  db:
-    image: mysql:5.7
-    ports:
-      - "3306:3306"
-    restart: always
-    environment:
-      MYSQL_DATABASE: db_notes
-      MYSQL_USER: root
-      MYSQL_PASSWORD: root
-      MYSQL_ROOT_PASSWORD: root
-    volumes:
-      - db-data:/var/lib/mysql
-    networks:
-      - backend  
+  
   
 # Volumes
 volumes:
