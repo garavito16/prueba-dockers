@@ -12,6 +12,8 @@ services:
     ports:
       - "3306:3306"
     restart: always
+    depends_on: 
+      - mysql_server
     environment:
       MYSQL_DATABASE: db_notes
       MYSQL_USER: root
