@@ -12,7 +12,6 @@ services:
     ports:
       - "3306:3306"
     restart: always
-    env_file: ./.env
     environment:
       MYSQL_DATABASE: db_notes
       MYSQL_ROOT_PASSWORD: root
